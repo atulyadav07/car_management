@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.service {
+    background: #e2e2e2;
+    margin: 10px 0;
+    padding: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
+.slider-container{
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider{
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide{
+    min-width: 100%;
+    height: auto;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+.fade{
+    animation: fadeEffect 1.5s infinite;
+}
+
+@keyframes fadeEffect {
+    0%{opacity: 0;}
+    20%{opacity: 1;}
+    80%{opacity: 1;}
+    100%{opacity: 0;}
+}
